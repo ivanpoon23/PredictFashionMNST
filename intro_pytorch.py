@@ -7,7 +7,6 @@ from torchvision import datasets, transforms
 
 def get_data_loader(training = True):
     """
-    TODO: implement this function.
 
     INPUT: 
         An optional boolean argument (default value is True for training dataset)
@@ -33,7 +32,6 @@ def get_data_loader(training = True):
 
 def build_model():
     """
-    TODO: implement this function.
 
     INPUT: 
         None
@@ -54,7 +52,6 @@ def build_model():
 
 def build_deeper_model():
     """
-    TODO: implement this function.
 
     INPUT: 
         None
@@ -78,7 +75,6 @@ def build_deeper_model():
 
 def train_model(model, train_loader, criterion, T):
     """
-    TODO: implement this function.
 
     INPUT: 
         model - the model produced by the previous function
@@ -114,7 +110,6 @@ def train_model(model, train_loader, criterion, T):
 
 def evaluate_model(model, test_loader, criterion, show_loss = True):
     """
-    TODO: implement this function.
 
     INPUT: 
         model - the the trained model produced by the previous function
@@ -147,7 +142,6 @@ def evaluate_model(model, test_loader, criterion, show_loss = True):
 
 def predict_label(model, test_images, index):
     """
-    TODO: implement this function.
 
     INPUT: 
         model - the trained model
