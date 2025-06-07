@@ -7,7 +7,6 @@ from torchvision import datasets, transforms
 
 def get_data_loader(training = True):
     """
-
     INPUT: 
         An optional boolean argument (default value is True for training dataset)
 
@@ -32,7 +31,6 @@ def get_data_loader(training = True):
 
 def build_model():
     """
-
     INPUT: 
         None
 
@@ -52,7 +50,6 @@ def build_model():
 
 def build_deeper_model():
     """
-
     INPUT: 
         None
 
@@ -75,7 +72,6 @@ def build_deeper_model():
 
 def train_model(model, train_loader, criterion, T):
     """
-
     INPUT: 
         model - the model produced by the previous function
         train_loader  - the train DataLoader produced by the first function
@@ -110,7 +106,6 @@ def train_model(model, train_loader, criterion, T):
 
 def evaluate_model(model, test_loader, criterion, show_loss = True):
     """
-
     INPUT: 
         model - the the trained model produced by the previous function
         test_loader    - the test DataLoader
@@ -142,7 +137,6 @@ def evaluate_model(model, test_loader, criterion, show_loss = True):
 
 def predict_label(model, test_images, index):
     """
-
     INPUT: 
         model - the trained model
         test_images   -  a tensor. test image set of shape Nx1x28x28
